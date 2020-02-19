@@ -1,6 +1,33 @@
 html,body {
     background-color:darkseagreen;
     min-height:100%;
-    margin:0%;
-    padding:0%;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:floralwhite;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+
+.main-contain{
+    
+}
+
+.navi{
+    
+}
+
+.content-contain{
+    
+}
+
+.about{
+    
+}
+
+.foot{
+    
 }
