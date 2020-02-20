@@ -40,6 +40,21 @@ header {
 }
 
 .content-contain{
+    width:100%;
+    margin:20px;
+    padding:10px;
+    display:flex;
+    flex: 1 1 auto;
+    flex-wrap:wrap;
+    
+}
+
+.content-contain .card{
+    height: 195px;
+    flex: 0 0 195px;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 5px;
     
 }
 
@@ -47,10 +62,30 @@ header {
     
 }
 
-.prod-contain{
-    
+#item-description{
+    width:inherit;
+    height:20px;
+    text-align: center;
 }
 
-.foot{
+#item-image{
+    height: calc(100%-40px);
+    width:inherit;
+    margin:auto;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color:white;
+    width:1004px;
+    margin:auto;
+    padding:10px;
+    min-height: 10%;
+    flex-direction: column;
+    display:flex;
+    
+    
     
 }

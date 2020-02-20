@@ -57,3 +57,20 @@ mascara.name = "Zero Waste Mascara";
 mascara.price = "$10.99";
 mascara.category = "Health & Beauty";
 mascara.url = "imgs/mascara.jpg";
+
+var items = [beesWax, produceBags, masonJar, sprayBottle, dishBlock, shampoo, toothpaste, toothbrush, deoderant, mascara];
+var itemsSort = [beesWax, produceBags, masonJar, sprayBottle, dishBlock, shampoo, toothpaste, toothbrush, deoderant, mascara];
+
+
+function displayItems(arrayOfItems){
+    
+    document.getElementById("content-contain").innerHTML="";
+    for (i in arrayOfItems){
+        document.getElementById("content-contain").innerHTML +=
+            '<div class = "card"> <div class = "item-description">'+arrayOfItems[i].name+'</div><img class="item-img" src = "'+arrayOfItems[i].url'"><div class="item-description">'+ arrayOfItems[i].price'</div></div>'
+    }
+}
+
+sortBy
+
+
