@@ -55,12 +55,14 @@ header {
     background-color: blue;
     border: 1px solid black;
     margin: 5px;
+    border-radius: 10px;
     
 }
 
 .about{
     
 }
+
 
 .item-description{
     width:inherit;
@@ -70,22 +72,26 @@ header {
 
 .item-img{
     height: calc(100%-40px);
-    width:inherit;
-    margin:auto;
-    text-align:center;
-    display:flex;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    display: flex;
     flex-direction: column;
 }
 
+@media only screen and (max-width: 1199px){
+    
+}
+
+
+
 footer{
-    background-color:white;
-    width:1004px;
+    background-color: white;
+    width: 1004px;
     margin:auto;
     padding:10px;
     min-height: 10%;
     flex-direction: column;
     display:flex;
-    
-    
     
 }
