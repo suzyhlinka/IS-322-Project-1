@@ -67,10 +67,20 @@ function displayItems(arrayOfItems){
     document.getElementById("content-contain").innerHTML="";
     for (i in arrayOfItems){
         document.getElementById("content-contain").innerHTML +=
-            '<div class = "card"> <div class = "item-description">'+arrayOfItems[i].name+'</div><img class="item-img" src = "'+arrayOfItems[i].url'"><div class="item-description">'+ arrayOfItems[i].price'</div></div>'
+            '<div class = "card"> <div class = "item-description">' + arrayOfItems[i].name + '</div><img class="item-img" src = "' + arrayOfItems[i].url + '"><div class="item-description">' +  arrayOfItems[i].price + '</div></div>';
     }
 }
 
-sortBy
+function sortBy(){
+    var selection = document.getElementById("sortBy").value;
+    if (selection === "name"){
+        //productSort.sort(function(a,b)  )
+    }
+                         
+                         
+                         
+                         
+                         
+}
 
-
+displayItems(items);

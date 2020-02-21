@@ -62,13 +62,13 @@ header {
     
 }
 
-#item-description{
+.item-description{
     width:inherit;
     height:20px;
     text-align: center;
 }
 
-#item-image{
+.item-img{
     height: calc(100%-40px);
     width:inherit;
     margin:auto;
