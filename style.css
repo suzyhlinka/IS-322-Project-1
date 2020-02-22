@@ -8,8 +8,12 @@ html,body {
 header {
     background-color:floralwhite;
     text-align:center;
-    margin:auto;
+    margin: 0 auto;
     display:block;
+}
+
+h1{
+    margin: 0;
 }
 
 .main-contain{
