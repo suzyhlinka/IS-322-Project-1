@@ -21,11 +21,17 @@
         <aside class="navi">
             <a href=index.html>Home</a>
             <a href=products.html>Products</a>
-            
+        </aside>
+        <aside class="sort-contain">
             <div class = "sorting">
-                <label for=sortBy> Sort By:</label>
+                <label for=sortType> Sort By:</label>
+                <select id="sortType" onchange="sortChange()">
+                    <option value="">-</option>
+                    <option value="name">Name</option>
+                    <option value="price">Price</option>
+                    <option value="zero">Zero Waste</option>
+                </select>
             </div>
-            
         </aside>
 
         <div class="content-contain" id="content-contain">
