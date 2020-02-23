@@ -1,14 +1,35 @@
-var currentImage = 0;
-var images = ["/imgs/beeswax.jpg", "/imgs/deoderant.jpg", "/imgs/masonjar.jpg", "/imgs/mascara.jpg"];
+var currentImage = 1;
 
 runSlideshow();
 
 function runSlideshow(){
-    if (currentImage >= images.length){
-        currentImage = 0;
+    if (currentImage > 4){
+        currentImage = 1;
     }
-    
-    document.getElementById("gallery").innerHTML = "<img class='slideshow' src='"+images[currentImage]+"'>";
+    if (currentImage == 1){
+        document.getElementById("img1").style.display = "block"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img3").style.display = "none"
+        document.getElementById("img4").style.display = "none"
+    }
+    if (currentImage == 2){
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img2").style.display = "block"
+        document.getElementById("img3").style.display = "none"
+        document.getElementById("img4").style.display = "none"
+    }
+    if (currentImage == 3){
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img3").style.display = "block"
+        document.getElementById("img4").style.display = "none"
+    }
+    if (currentImage == 4){
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img3").style.display = "none"
+        document.getElementById("img4").style.display = "block"
+    }
     
     currentImage ++;
     setTimeout(runSlideshow, 4000);

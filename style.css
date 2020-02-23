@@ -28,15 +28,15 @@ header h1{
 
 .navi{
     background-color:pink;
-    min-height:100%;
-    flex:0 0 150px;
+    min-height: auto;
+    flex:0 0 35px;
 }
 
 .navi a {
     color:darkseagreen;
     text-decoration:none;
     text-align:center;
-    display:block;
+    display:inline-block;
     padding:15px;
     font-family:sans-serif;
 }
@@ -49,6 +49,7 @@ header h1{
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
+    width:90%;
 }
 
 .gallery{
@@ -71,9 +72,14 @@ header h1{
     flex-direction: column;
 }
 
-.about h3, p{
+.about h3{
     margin-right: auto;
     margin-left: auto;
+}
+
+.about p{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-contain{
@@ -84,6 +90,8 @@ header h1{
     flex: 1 1 auto;
     flex-wrap:wrap;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
