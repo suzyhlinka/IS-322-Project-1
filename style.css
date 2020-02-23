@@ -9,7 +9,7 @@ html,body {
 header {
     background-color:floralwhite;
     text-align:center;
-    margin: 0 auto;
+    margin: 15px auto;
     display:block;
 }
 
@@ -27,13 +27,13 @@ header h1{
 }
 
 .navi{
-    background-color:pink;
+    background-color:darkseagreen;
     min-height: auto;
     flex:0 0 35px;
 }
 
 .navi a {
-    color:darkseagreen;
+    color:floralwhite;
     text-decoration:none;
     text-align:center;
     display:inline-block;
@@ -42,7 +42,7 @@ header h1{
 }
 
 .navi a:hover{
-    color:burlywood;
+    color:rosybrown;
 }
 
 .about-contain{
@@ -102,6 +102,12 @@ header h1{
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 grey;
+    
+}
+
+.content-contain .card a{
+    text-decoration: none;
+    
 }
 
 .sort-contain{
@@ -179,6 +185,10 @@ header h1{
         margin-right:  auto;
         margin-left:  auto;
     }
+    
+    .details-contain{
+        flex-direction: column;
+    }
 }
 
 footer{
@@ -189,4 +199,24 @@ footer{
 
 .footerBlock{
     width: 33%;
+}
+
+.details-contain{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-image{
+    padding-right:15px;
+}
+
+.product-image img{
+    padding-right:15px;
+    width: 250px;
+}
+
+.product-details{
+    margin-right: 1em;
+    width: 100%;
 }
