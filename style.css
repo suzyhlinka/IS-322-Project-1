@@ -6,7 +6,6 @@ html,body {
     font: 15px/1.5 Arial, Helvetica, Helvetica, sans-serif;
 }
 
-
 header {
     background-color:floralwhite;
     text-align:center;
@@ -14,7 +13,7 @@ header {
     display:block;
 }
 
-h1{
+header h1{
     margin: 0;
 }
 
@@ -46,6 +45,37 @@ h1{
     color:burlywood;
 }
 
+.about-contain{
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.gallery img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h3, p{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .content-contain{
     width:100%;
     margin:20px;
@@ -68,10 +98,6 @@ h1{
 
 .sort-contain{
     margin:10px;
-}
-
-.about{
-    
 }
 
 
@@ -135,6 +161,15 @@ h1{
     .item-img{
         
         width: 60%;
+    }
+    footer{
+        flex-direction:column;
+        width:  100%;
+    }
+    .footerBlock{
+        width: 100%;
+        margin-right:  auto;
+        margin-left:  auto;
     }
 }
 
