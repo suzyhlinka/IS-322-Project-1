@@ -58,7 +58,7 @@ mascara.price = "10.99";
 mascara.category = "Health & Beauty";
 mascara.url = "imgs/mascara.jpg";
 
-var items = [beesWax, produceBags, masonJar, sprayBottle, dishBlock, shampoo, toothpaste, toothbrush, deoderant, mascara];
+var items = [beesWax, produceBags, masonJar, sprayBottle, dishBlock, shampoo, toothpaste, toothbrush, deoderant, mascara]; 
 var itemsSort = [beesWax, produceBags, masonJar, sprayBottle, dishBlock, shampoo, toothpaste, toothbrush, deoderant, mascara];
 
 
